@@ -110,21 +110,21 @@ endif;
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/"><img style="margin-top:-5px;" src="/img/xs_mailcow.png" /></a>
+			<a class="navbar-brand" href="/"><img style="margin-top:-5px;" src="img/logo.svg" alt="GrumpyGuvner" width="60" height="30"></a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<?php
 				if (isset($_SESSION['mailcow_locale'])) {
 				?>
-				<li class="dropdown">
+<!--				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="lang-sm lang-lbl" lang="<?=$_SESSION['mailcow_locale'];?>"></span><span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
 						<li <?=($_SESSION['mailcow_locale'] == 'de') ? 'class="active"' : ''?>> <a href="#" onClick="setLang('de')"><span class="lang-xs lang-lbl-full" lang="de"></span></a></li>
 						<li <?=($_SESSION['mailcow_locale'] == 'en') ? 'class="active"' : ''?>> <a href="#" onClick="setLang('en')"><span class="lang-xs lang-lbl-full" lang="en"></span></a></li>
 						<li <?=($_SESSION['mailcow_locale'] == 'pt') ? 'class="active"' : ''?>> <a href="#" onClick="setLang('pt')"><span class="lang-xs lang-lbl-full" lang="pt"></span></a></li>
 					</ul>
-				</li>
+				</li> -->
 				<?php
 				}
 				if (isset($_SESSION['mailcow_cc_role'])) {
