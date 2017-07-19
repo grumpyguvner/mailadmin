@@ -15,12 +15,12 @@ elseif (isset($_SESSION['mailcow_cc_role']) && $_SESSION['mailcow_cc_role'] == "
 	<div class="row">
 		<div class="col-md-offset-3 col-md-6">
 			<div class="panel panel-default">
-				<div class="panel-heading"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <?=$lang['login']['login'];?></div>
+                            <div class="panel-heading">MailAdmin</div>
 				<div class="panel-body">
-					<center>
-						<img class="img-responsive" src="img/200.png" alt="mailcow">
+					<center style="padding-top: 40px; padding-bottom: 40px;">
+                                            <img src="img/logo.svg" alt="GrumpyGuvner" width="200" height="100">
 					</center>
-					<legend>mailcow UI</legend>
+                                                <p><?=$lang['start']['mailcow_panel_detail'];?></p>
 						<form method="post" autofill="off">
 						<div class="form-group">
 							<label class="sr-only" for="login_user"><?=$lang['login']['username'];?></label>
@@ -38,7 +38,7 @@ elseif (isset($_SESSION['mailcow_cc_role']) && $_SESSION['mailcow_cc_role'] == "
 						</div>
 						<div class="form-group">
 							<button type="submit" class="btn btn-success" value="Login"><?=$lang['login']['login'];?></button>
-							<div class="btn-group pull-right">
+<!--							<div class="btn-group pull-right">
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									<span class="lang-sm lang-lbl" lang="<?=$_SESSION['mailcow_locale'];?>"></span> <span class="caret"></span>
 								</button>
@@ -47,7 +47,7 @@ elseif (isset($_SESSION['mailcow_cc_role']) && $_SESSION['mailcow_cc_role'] == "
 									<li <?=($_SESSION['mailcow_locale'] == 'en') ? 'class="active"' : ''?>><a href="#" onClick="setLang('en')"><span class="lang-xs lang-lbl-full" lang="en"></a></li>
 									<li <?=($_SESSION['mailcow_locale'] == 'pt') ? 'class="active"' : ''?>><a href="#" onClick="setLang('pt')"><span class="lang-xs lang-lbl-full" lang="pt"></a></li>
 								</ul>
-							</div>
+							</div> -->
 						</div>
 						</form>
 						<?php
@@ -57,35 +57,9 @@ elseif (isset($_SESSION['mailcow_cc_role']) && $_SESSION['mailcow_cc_role'] == "
 						<?php
 						endif;
 						?>
-					<legend>mailcow Apps</legend>
-					<?php
-					$mailcow_version = file_get_contents("/etc/mailcow_version");
-					if (preg_match('/sogo/i',$mailcow_version)) {
-					?>
-					<a href="/SOGo/" role="button" class="btn btn-lg btn-default"><?=$lang['start']['start_sogo'];?></a>
-					<?php
-					}
-					else {
-					?>
-					<a href="/rc/" role="button" class="btn btn-lg btn-default"><?=$lang['start']['start_rc'];?></a>
-					<?php
-					}
-					?>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-offset-3 col-md-6">
-			<div class="panel panel-default" style="">
-				<div class="panel-heading">
-					<a data-toggle="collapse" href="#collapse1"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> <?=$lang['start']['help'];?></a>
-				</div>
-				<div id="collapse1" class="panel-collapse collapse">
-					<div class="panel-body">
-						<p><span style="border-bottom: 1px dotted #999">mailcow UI</span></p>
-						<p><?=$lang['start']['mailcow_panel_detail'];?></p>
-						<p><span style="border-bottom: 1px dotted #999">mailcow Apps</span></p>
-						<p><?=$lang['start']['mailcow_apps_detail'];?></p>
-					</div>
+					<legend>Looking for Webmail?</legend>
+                                        <p><?=$lang['start']['mailcow_panel_description'];?></p>
+					<a href="http://webmail.grumpyguvner.net/" role="button" class="btn btn-lg btn-default">Webmail</a>
 				</div>
 			</div>
 		</div>

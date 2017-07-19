@@ -141,9 +141,9 @@ $lang['start']['start_rc'] = 'Open Roundcube';
 $lang['start']['start_sogo'] = 'Open SOGo';
 $lang['start']['mailcow_apps_detail'] = 'Use a mailcow app to access your mails, calendar, contacts and more.';
 $lang['start']['mailcow_panel'] = 'Start mailcow UI';
-$lang['start']['mailcow_panel_description'] = 'The mailcow UI is available for administrators and mailbox users.';
-$lang['start']['mailcow_panel_detail'] = '<b>Domain administrators</b> create, modify or delete mailboxes and aliases, change domains and read further information about their assigned domains.<br />
-	<b>Mailbox users</b> are able to create time-limited aliases (spam aliases), change their password and spam filter settings.';
+$lang['start']['mailcow_panel_description'] = 'MailAdmin is to maintain your domain and mailbox settings, if you were looking to access your email please use the Webmail button below:';
+$lang['start']['mailcow_panel_detail'] = '<b>Domain administrators</b> create, modify or delete mailboxes and aliases, change domains and read further information about their assigned domains. Enter your domain name as the username.<br /><br />
+	<b>Mailbox users</b> are able to create time-limited aliases (spam aliases), change their password and spam filter settings. Enter your email address as the username.';
 $lang['start']['recommended_config'] = 'Recommended configuration (without ActiveSync)';
 $lang['start']['imap_smtp_server'] = 'IMAP- and SMTP server data';
 $lang['start']['imap_smtp_server_description'] = 'For the best experience we recommend to use <a href="%s" target="_blank"><b>Mozilla Thunderbird</b></a>.';
