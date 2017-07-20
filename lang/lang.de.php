@@ -136,12 +136,13 @@ $lang['user']['tls_enforce_out'] = 'TLS ausgehend erzwingen';
 
 $lang['user']['misc_settings'] = 'Sonstige Kontoeinstellungen';
 $lang['user']['misc_delete_profile'] = 'Sonstige Kontoeinstellungen';
+
+$lang['user']['looking_for_your_email'] = 'MailAdmin ist es, Ihre Mailbox-Einstellungen zu pflegen, wenn Sie auf Ihre E-Mails zugreifen möchten, verwenden Sie bitte die Webmail-Schaltfläche unten:';
+$lang['user']['webmail'] = 'Webmail';
+
 $lang['start']['dashboard'] = '%s - Dashboard';
-$lang['start']['start_rc'] = 'Roundcube öffnen';
-$lang['start']['start_sogo'] = 'SOGo öffnen';
 $lang['start']['mailcow_apps_detail'] = 'Verwenden Sie mailcow Apps, um E-Mails abzurufen, Kalender- und Kontakte zu verwalten und vieles mehr.';
 $lang['start']['mailcow_panel'] = 'mailcow UI starten';
-$lang['start']['mailcow_panel_description'] = 'Die mailcow Steuerung steht sowohl für Administratoren als auch Mailbox-Benutzer zur Verfügung.';
 $lang['start']['mailcow_panel_detail'] = '<b>Domain-Administratoren</b> erstellen, verändern oder löschen Mailboxen, verwalten die Domäne und sehen sonstige Einstellungen ein.<br />
 	Als <b>Mailbox-Benutzer</b> erstellen Sie hier zeitlich limitierte Aliasse, ändern das Verhalten des Spamfilters, setzen ein neues Passwort und vieles mehr.';
 $lang['start']['recommended_config'] = 'Empfohlene Software-Konfiguration (ohne ActiveSync)';

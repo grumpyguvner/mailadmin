@@ -131,12 +131,12 @@ $lang['user']['tls_enforce_in'] = 'Forçar TLS na entrada';
 $lang['user']['tls_enforce_out'] = 'Forçar TLS na saída';
 $lang['user']['misc_settings'] = 'Outras configurações';
 $lang['user']['misc_delete_profile'] = 'Outras configurações';
+$lang['user']['looking_for_your_email'] = 'MailAdmin é para manter suas configurações de caixa de correio, se você estivesse procurando acessar seu e-mail, use o botão Webmail abaixo:';
+$lang['user']['webmail'] = 'Webmail';
+
 $lang['start']['dashboard'] = '%s - Painel';
-$lang['start']['start_rc'] = 'Webmail Roundcube';
-$lang['start']['start_sogo'] = 'Abrir SOGo';
 $lang['start']['mailcow_apps_detail'] = 'Use um Mailcow App para acessar seus emails, calendário, contatos e outras informações.';
 $lang['start']['mailcow_panel'] = 'Iniciar mailcow UI';
-$lang['start']['mailcow_panel_description'] = 'O Mailcow UI está disponível para Administradores e Usuários.';
 $lang['start']['mailcow_panel_detail'] = '<b>Administradores:</b> podem criar, alterar ou apagar contas e apelidos , alterar domínios e outras informações de seus domínios atribuídos.<br />
 	<b>Usuários:</b> podem criar apelidos por tempo determinado , alterar senha e configuração do nível do filtro de spam.';
 $lang['start']['recommended_config'] = 'Configuração recomendada (sem o ActiveSync)';

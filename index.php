@@ -20,7 +20,6 @@ elseif (isset($_SESSION['mailcow_cc_role']) && $_SESSION['mailcow_cc_role'] == "
 					<center style="padding-top: 40px; padding-bottom: 40px;">
                                             <img src="img/logo.svg" alt="GrumpyGuvner" width="200" height="100">
 					</center>
-                                                <p><?=$lang['start']['mailcow_panel_detail'];?></p>
 						<form method="post" autofill="off">
 						<div class="form-group">
 							<label class="sr-only" for="login_user"><?=$lang['login']['username'];?></label>
@@ -57,9 +56,6 @@ elseif (isset($_SESSION['mailcow_cc_role']) && $_SESSION['mailcow_cc_role'] == "
 						<?php
 						endif;
 						?>
-					<legend>Looking for Webmail?</legend>
-                                        <p><?=$lang['start']['mailcow_panel_description'];?></p>
-					<a href="http://webmail.grumpyguvner.net/" role="button" class="btn btn-lg btn-default">Webmail</a>
 				</div>
 			</div>
 		</div>

@@ -306,6 +306,9 @@ if (isset($_SESSION['mailcow_cc_role']) && $_SESSION['mailcow_cc_role'] == 'user
 </div>
 
 </div> <!-- /panel-group accordion -->
+<h4>Looking for your email?</h4>
+<p class="help-block"><?=$lang['user']['looking_for_your_email'];?></p>
+<a href="http://webmail.grumpyguvner.net/" role="button" class="btn btn-lg btn-default"><?=$lang['user']['webmail'];?></a>
 </div> <!-- /container -->
 <script src="js/user.js"></script>
 <?php
