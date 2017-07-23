@@ -13,24 +13,24 @@ preg_match("/\<EMailAddress\>(.*?)\<\/EMailAddress\>/", $data, $email);
 $domain = "grumpyguvner.net";
 
 // POP settings
-//$popServer = 'pop' . $domain; // pop.example.com
-$popServer = 'mail' . $domain; // pop.example.com
+//$popServer = 'pop.' . $domain; // pop.example.com
+$popServer = 'mail.' . $domain; // pop.example.com
 //$popPort = '110';
-//$smtpSSL = 'off';
+//$popSSL = 'off';
 $popPort = '995';
-$smtpSSL = 'on';
+$popSSL = 'on';
 
 // IMAP settings
-//$imapServer = 'imap' . $domain; // imap.example.com
-$imapServer = 'mail' . $domain; // imap.example.com
+//$imapServer = 'imap.' . $domain; // imap.example.com
+$imapServer = 'mail.' . $domain; // imap.example.com
 //$imapPort = '143';
 //$imapSSL = 'off';
 $imapPort = '993';
 $imapSSL = 'on';
 
 // SMTP settings
-//$smtpServer = 'smtp' . $domain; // smtp.example.com
-$smtpServer = 'mail' . $domain; // smtp.example.com
+//$smtpServer = 'smtp.' . $domain; // smtp.example.com
+$smtpServer = 'mail.' . $domain; // smtp.example.com
 //$smtpPort = '25';
 //$smtpSSL = 'off';
 $smtpPort = '465';
